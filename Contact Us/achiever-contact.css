@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', 'Oxygen', 'Titillium Web', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+header nav {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-image: linear-gradient(-20deg, #fbfcdb 0%, #e9defa 100%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav h1 {
+    font-size: 1.5rem;
+    color: #685d77;
+}
+
+header nav h1:hover {
+    color: #342746;
+    cursor: pointer;
+}
+
+header nav ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li a {
+    padding: 0.25rem;
+    color: #685d77;
+
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    color: #342746;
+}
