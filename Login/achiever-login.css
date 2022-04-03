@@ -14,14 +14,10 @@ body {
     background-image: linear-gradient(to right, #e9defa 0%, #fbfcdb 100%);
 }
 
-.login-container {
-    background-image: linear-gradient(to right, #e9defa 0%, #fbfcdb 100%);
-}
-
 header nav {
     padding: 5px 10px;
     text-decoration: none;
-    background-image: linear-gradient(to left, #fbfcdb 0%, #e9defa 100%);
+    background-image: linear-gradient(to left, #e9defa 0%, #fbfcdb 100%);
 
     display: flex;
     flex-direction: row;
